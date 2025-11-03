@@ -1,1 +1,1 @@
-# Modular_Threat_Detectio_Toolkit-MTDT-
+# Modular_Threat_Detectio_Toolkit
