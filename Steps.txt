@@ -1,0 +1,25 @@
+Created a new Python file for the port scanner
+    Imported some libs i.e
+
+    1.  `socket`: Built-in networking library. It lets us connect to IPs and ports.
+
+    2.  `argparse`: Makes our script usable from the command line with flags like --host and --ports.
+
+Parse CLI Arguments
+
+    Defined the CLI interface so users can run:
+
+    This function parse_args() is part of a CLI prg. Instead of hardcoding values, it lets the user run the script with arguments eg. 
+
+    `python scanner.py --host 192.168.1.10 --ports 20-80`
+
+    **Purpose:** Collect user input (host and port range) from the command line.
+    **Why:** Makes the script flexible and reusable — you can scan different hosts and port ranges without editing the code.
+
+    **What it does:**
+
+Creates an argument parser using Python’s argparse module.
+
+Defines two required arguments: --host and --ports.
+
+Returns the parsed arguments as an object, so the rest of the program can use them.
